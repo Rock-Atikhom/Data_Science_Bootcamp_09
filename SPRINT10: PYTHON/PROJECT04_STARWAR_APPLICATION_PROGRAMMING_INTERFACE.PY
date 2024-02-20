@@ -8,7 +8,7 @@ from time import sleep
 from requests import get
 
 
-## STAR WAR APLICATION PROGRAMMING INTERFACE
+## STAR WAR APPLICATION PROGRAMMING INTERFACE
 
 url = "https://swapi.dev/api/people/"
 url_home = "https://swapi.dev/api/planets/"
