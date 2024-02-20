@@ -1,4 +1,6 @@
 ## DEFINE FUNCTION FOR CREATING OBJECT-ORIENTED PROGRAMMING
+## 3 ATTRIBUTES
+## 3 FUNCTION (METHOD)
 
 class Occupation():
     def __init__(self, name, age, position, skill, company):
