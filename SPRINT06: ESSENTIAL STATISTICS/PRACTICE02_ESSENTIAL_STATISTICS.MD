@@ -1,0 +1,13 @@
+## RCT AND AB TEST SAMPLE
+
+- DESCRIPTIVE STATISTICS
+
+- NORMAL DISTRIBUTION
+
+- CONFIDENCE INTERVAL
+
+- INDEPENDENT T-TEST
+
+- PAIRED T-TEST
+
+=> [ESSENTIAL STATISTICS](https://docs.google.com/spreadsheets/d/1As3M-jtGjaf4QSuAkgXX5tZ3ykkeuxOWiLoke6zXtkE/edit?usp=sharing)
