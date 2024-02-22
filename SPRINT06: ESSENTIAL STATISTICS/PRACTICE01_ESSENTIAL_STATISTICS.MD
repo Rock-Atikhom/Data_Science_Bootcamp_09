@@ -13,4 +13,4 @@
 - MEASURE OF RELATIONSHIPS
 
 
-[ESSENTIAL STATISTICS](https://docs.google.com/spreadsheets/d/1xPpJgkNLQx2ROme41hb4lee9I-IXcLpQHG6qF-Aua6M/edit?usp=sharing)
+=> [ESSENTIAL STATISTICS](https://docs.google.com/spreadsheets/d/1xPpJgkNLQx2ROme41hb4lee9I-IXcLpQHG6qF-Aua6M/edit?usp=sharing)
