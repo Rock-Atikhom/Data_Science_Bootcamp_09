@@ -15,7 +15,7 @@ Currently Enrolled In a Data Science Bootcamp Program Comprising 10 intensive sp
 
   ## SECOND PART OF THE PROGRAM
 
-- Building Website Portfolio
+- Building a Website Portfolio
 - Essential Statistics
 - Machine Learning For Data Analyst
 - Dashboard with Looker Studio
@@ -24,4 +24,4 @@ Currently Enrolled In a Data Science Bootcamp Program Comprising 10 intensive sp
 
   Email: hummad.88wa@gmail.com
   
-  LinkedIn: [Atikhom Muhammadaree](www.linkedin.com/in/rockatikhom)
+  LinkedIn: [Atikhom Muhammadaree](https://www.linkedin.com/in/rockatikhom/)
