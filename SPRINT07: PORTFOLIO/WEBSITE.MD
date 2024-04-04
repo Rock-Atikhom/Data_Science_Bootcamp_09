@@ -8,4 +8,4 @@
 
 - PHILOSOPHY
 
-=> [MY WEBSITE](https://hummad88wa.wordpress.com/#)
+=> [MY WEBSITE](https://rockatikhom.wordpress.com/)
