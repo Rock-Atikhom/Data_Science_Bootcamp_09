@@ -1,3 +1,5 @@
+-- CREATE TABLE CLAUSE
+
 CREATE TABLE EmployeeDemographcs
 (EmployeeId int,
 FirstName varchar(50),
@@ -6,12 +8,15 @@ Age int,
 Gender varchar(50)
 );
 
+-- CREATE TABLE CLAUSE
+
 CREATE TABLE EmployeeSalary
 (EmployeeID int,
 JobTitle varchar(50),
 Salary int
 );
 
+-- INSERT CLAUSE
 
 INSERT INTO EmployeeDemographics VALUES
 (1001, 'Mongkol', 'Muhammadaree', 50, 'Male'),
@@ -24,6 +29,7 @@ INSERT INTO EmployeeDemographics VALUES
 (1008, 'Angela', 'Martin', 31, 'Female'),
 (1009, 'Kevin', 'Malone', 31, 'Male');
 
+-- INSERT CLAUSE
 
 INSERT INTO EmployeeSalary VALUES
 (1001, 'Technician', 15000), 
