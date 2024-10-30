@@ -190,3 +190,13 @@ ON CI.COUNTRYCODE = CO.CODE
 GROUP BY CO.CONTINENT;
 
 -- 27
+SET @numeric = 21;
+SELECT REPEAT('* ', @numeric : =@numeric - 1)
+FROM information_schema.tables
+LIMIT 20;
+
+-- 28
+SET @numeric = 0;
+SELECT REPEAT('* ', @numeric : =@numeric + 1)
+FROM information_schema.tables
+LIMIT 20;
