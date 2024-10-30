@@ -210,10 +210,16 @@ WITH SUB AS (SELECT
                     CASE OCCUPATION WHEN 'Doctor' THEN @r1:=@r1+1
                                     WHEN 'Professor' THEN @r2:=@r2+1
                                     WHEN 'Singer' THEN @r3:=@r3+1
-                                    WHEN 'Actor' THEN @r4:=@r4+1 END
+                                    WHEN 'Actor' THEN @r4:=@r4+1 END AS NUMBER,
+                    CASE WHEN OCCUPATION = 'Doctor' THEN NAME AS Doctor,
+                    CASE WHEN OCCUPATION = 'Professor' THEN NAME AS Professor,
+                    CASE WHEN OCCUPATION = 'Singer' THEN NAME AS Singer,
+                    CASE WHEN OCCUPATION = 'Actor' THEN NAME AS Actor
                     FROM OCCUPATIONS)
-
-SELECT 
+                    
+SELECT
     *
-FROM SUB
+FROM SUB;
+
+
 ORDER BY OCCUPATION;
