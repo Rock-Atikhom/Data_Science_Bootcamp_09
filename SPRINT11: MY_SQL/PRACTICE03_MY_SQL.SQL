@@ -200,3 +200,20 @@ SET @numeric = 0;
 SELECT REPEAT('* ', @numeric : =@numeric + 1)
 FROM information_schema.tables
 LIMIT 20;
+
+-- 29
+SET @r1=0, @r2=0, @r3=0, @4=0;
+
+WITH SUB AS (SELECT 
+                    NAME,
+                    OCCUPATION,
+                    CASE OCCUPATION WHEN 'Doctor' THEN @r1:=@r1+1
+                                    WHEN 'Professor' THEN @r2:=@r2+1
+                                    WHEN 'Singer' THEN @r3:=@r3+1
+                                    WHEN 'Actor' THEN @r4:=@r4+1 END
+                    FROM OCCUPATIONS)
+
+SELECT 
+    *
+FROM SUB
+ORDER BY OCCUPATION;
